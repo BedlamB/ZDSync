@@ -19,8 +19,8 @@ public class JDBCConnector {
 
 
         String url = "jdbc:postgresql://localhost/brandwatch-crawler.db";
-        String user = "brandwatch";
-        String password = "brandwatchpwd";
+        String user = "";
+        String password = "";
 
         try {
             con = DriverManager.getConnection(url, user, password);
